@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-luma-bg: #131517;
+  --color-luma-card: rgba(255, 255, 255, 0.04);
+  --color-luma-card-hover: rgba(255, 255, 255, 0.06);
+  --color-luma-btn-secondary: rgba(255, 255, 255, 0.08);
+  --color-luma-btn-secondary-hover: rgba(255, 255, 255, 0.12);
+  --color-luma-border: rgba(255, 255, 255, 0.08);
+  --color-luma-input: rgba(255, 255, 255, 0.03);
+  --color-luma-text: #ffffff;
+  --color-luma-text-muted: #ffffff80;
+  --color-luma-text-secondary: #ffffffa3;
+  --color-luma-text-light: #ffffffc9;
+  --color-luma-gold: #f2ca77;
+  --color-luma-pink: #f98dbe;
+  --color-luma-dark: #131517;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Apple Color Emoji", Inter, Roboto, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-luma-bg);
+    color: var(--color-luma-text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
