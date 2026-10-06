@@ -111,11 +111,15 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 ## Future Improvements
 
-- Event Registration
-- Admin Dashboard
-- Search & Filters
 - Email Notifications
 - Payment Integration
+- Forgot Password / Reset Password
+- Email Verification
+- Event Search and Filtering
+- User Profile Management
+- Event Registration
+- Improved Admin Dashboard
+- Secure API validation
 
 ## Author
 
